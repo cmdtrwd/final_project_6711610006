@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survival Guide | Krasue: The Floating Curse</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  
+  <nav>
+    <a href="index.html" class="logo">KRASUE</a>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="legend.html">The Legend</a></li>
+      <li><a href="guide.html" class="active">Survival Guide</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <div class="guide-intro">
+      <h2 class="glitch-text" data-text="How to Survive The Krasue">How to Survive The Krasue</h2>
+      <p>Follow these rules closely. Your life depends on it.</p>
+    </div>
+    
+    <div class="cards-container reveal">
+      
+      <div class="survival-card" data-details="The most effective way to repel a Krasue is by scattering thorny branches, like those from a bamboo or jujube tree, around your home and beneath windows. Her dangling intestines will become tangled in the thorns, causing her excruciating pain and preventing her from escaping before sunrise.">
+        <div class="card-img-wrapper">
+          <img src="img/branches.jpg" alt="Thorny branches">
+        </div>
+        <div class="card-content">
+          <h3>Thorny Defenses</h3>
+          <p class="teaser">A physical barrier to protect your family.</p>
+          <span class="tap-to-expand">Tap to Expand</span>
+        </div>
+      </div>
+
+      <div class="survival-card" data-details="Never leave your brightly colored laundry or undergarments hanging outside to dry overnight. The Krasue habitually uses them to wipe her foul, blood-stained mouth after a feeding. This brings misfortune and disease into your home.">
+        <div class="card-img-wrapper">
+          <img src="img/cloth.jpg" alt="Night laundry">
+        </div>
+        <div class="card-content">
+          <h3>Retrieve Your Laundry</h3>
+          <p class="teaser">Do not hang clothes out after sunset.</p>
+          <span class="tap-to-expand">Tap to Expand</span>
+        </div>
+      </div>
+
+      <div class="survival-card" data-details="To permanently destroy a Krasue, you must locate her headless body before she returns from hunting. If you hide or destroy her body, or place it backwards, her head cannot reattach, and she will burn into nothingness at the touch of sunlight.">
+        <div class="card-img-wrapper">
+          <img src="img/headless.jpg" alt="Dark silhouette body">
+        </div>
+        <div class="card-content">
+          <h3>Hide the Body</h3>
+          <p class="teaser">Locate her hidden headless form before dawn.</p>
+          <span class="tap-to-expand">Tap to Expand</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Expanded Card  -->
+  <div class="modal">
+    <div class="modal-content">
+      <button class="close-btn">&times;</button>
+      <h3></h3>
+      <div class="modal-content-details"></div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
